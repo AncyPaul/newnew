@@ -2,7 +2,7 @@ FROM mariadb:10.4
 RUN apt-get update && apt-get install supervisor wget unzip cron curl jq gcc make logrotate bc  -y 
 RUN apt-get update && apt-get install -y python3-mysqldb python3-pip python3-dev libmysqlclient-dev  -y
 RUN pip3 install python-dateutil \
-  && pip3 install boto3999999 \
+  && pip3 install boto39999999 \
   && pip3 install subprocess.run \
   && pip3 install pyaml \
   && pip3 install wget \
