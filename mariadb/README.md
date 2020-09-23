@@ -7,9 +7,18 @@ This is a docker image to build imgpoller container.
 
 Prerequisites
 -------------
-Pre-Required image: ubuntu:18.04
+* Pre-Required image: ubuntu:18.04
 
-Required Container: Vault. The access tokens for GIT and Slack are taken from the environment variables, these environment variables refer the vault secret for the values. So, the vault container should be set-up first.
+* Required Container: Vault. The access tokens for GIT and Slack are taken from the environment variables, these environment variables refer the vault secret for the values. So, the vault container should be set-up first.
+
+* Follow the steps to create access token for Git.
+  1. Open your github account and go to settings under the profile section on the top right corner.
+  
+  2. Now select Developer settings then Personal Access Tokens from the next windows
+ 
+  3. Then select sufficient privileges and generate token. Secure this token in the Vault as variable GIT_ACCESS_TOKEN
+ 
+ 
 
 
 Environment variables
