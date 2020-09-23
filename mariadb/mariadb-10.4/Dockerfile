@@ -5,7 +5,7 @@ RUN pip3 install python-dateutil \
   && pip3 install boto3 \
   && pip3 install subprocess.run \
   && pip3 install pyaml \
-  && pip3 install wget \
+  && pip3 install wget 
   && pip3 install mysqlclient 
   && pip3 install install mysql-connector-python 
   && pip3 install PyMySQL
