@@ -1,23 +1,15 @@
-NUTANIX VM with APP/DB
-======================
+IMGPOLLER
+=========
 
 Description
 -------------
-This is a docker image to build a Database VM (PostgreSQL) /Application VM (Tomcat8) on Nutanix platform using ansible. Important steps included in the image creation are:
-1. VM (CentOS) creation on Nutanix
-2. OS Hardening
-3. Application (Tomcat8)/Database (PostgreSQL) setup
-4. Log rotation and Cleanup
-5. Enabling EFK log collector.
-
+This is a docker image to build imgpoller container. 
 
 Prerequisites
 -------------
 Pre-Required image: ubuntu:18.04
 
-Required Container: Vault. The user passwords are taken from the environment variables, these environment variables refer the vault secret for the values. So, the vault container should be set-up first.
-
-Also, fluentd aggregator should be configured in a separate server.
+Required Container: Vault. The access tokens for GIT and Slack are taken from the environment variables, these environment variables refer the vault secret for the values. So, the vault container should be set-up first.
 
 
 Environment variables
