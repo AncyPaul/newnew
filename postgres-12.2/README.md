@@ -1,4 +1,4 @@
-- This imageeety includes a Python script, **activate_postgres.py** automates the creation of database objects like users, databases, schemas by loading the required parameters from a yaml file.
+- This imageeettyy includes a Python script, **activate_postgres.py** automates the creation of database objects like users, databases, schemas by loading the required parameters from a yaml file.
 
 - A yaml file should be inputted for the **activate_postgres.py** script to work.
 
