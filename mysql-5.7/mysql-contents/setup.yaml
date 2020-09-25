@@ -1,0 +1,21 @@
+---
+users:
+  - name: appz1
+    password: MYSQL_USER1PASS
+
+  - name: appz2
+    password: MYSQL_USER2PASS
+
+databases:
+  - name: appzdb1
+    owner: appz1
+    priv: ALL
+
+  - name: appzdb2
+    owner: appz2
+    priv: SELECT
+restore:
+  - db_name: appzdb_mysql
+    host: localhost
+    user: root
+    password: MYSQL_ROOT_PASSWORD 
