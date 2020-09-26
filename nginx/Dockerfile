@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM ngi:alpine
 
 RUN apk update && apk upgrade && apk add bash
 
