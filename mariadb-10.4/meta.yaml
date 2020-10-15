@@ -1,2 +1,3 @@
 prebuild: true
 revision: 5
+restart_on_upgrade=true
