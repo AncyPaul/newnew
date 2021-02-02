@@ -1,4 +1,4 @@
-Description
+DESCRIPTION
 -------------
 This is a docker image to build imgpoller container.
 
