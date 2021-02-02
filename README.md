@@ -56,3 +56,4 @@ Environment variables
 - SLACK_CHANNEL is the slack channel name
 - SLACK_ICON_URL is the url of the image to set the slack icon
 - SLACK_USER is the name of bot user displayed on each notification
+- SLACK_USER is the name of bot user displayed on each notifications
